@@ -1,0 +1,106 @@
+/*
+	======================================
+	Individual pages
+	======================================
+*/
+.index-jumbo {
+	background-image: url("../Images/Banner/bg.jpg");
+	background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    border-radius: 0;
+    margin: 0;
+    color: #fff;
+}
+.about {
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../Images/Banner/bg1.jpg");
+	background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 38%;
+}
+.achievements {
+	background: linear-gradient(rgba(255,255,255,0.45), rgba(255,255,255,0.45)), url("../Images/Banner/bg2.jpg");
+	background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 55%;
+}
+.skills {
+	background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("../Images/Banner/bg3.jpg");
+	background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 5%;
+}
+.cv {
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../Images/Banner/bg6.jpg");
+	background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 25%;
+}
+.feedback {
+	background: linear-gradient(rgba(255,255,255,.35), rgba(255,255,255,.35)), url("../Images/Banner/bg5.jpg");
+	background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 25%;
+}
+/*
+	======================================
+	Navbar
+	======================================
+*/
+.navbar-brand {
+	border-right: 1px solid #949599;
+	padding-right: 20px;
+	font-family: "Play";
+}
+.nav-item {
+	font-family: "Rajdhani";
+}
+.jumbotron {
+	background-color: #C5CDE3;
+	text-align: center;
+	border-bottom: 1px solid #949599;
+}
+.lead {
+	font-family: "Raleway";
+	font-weight: 500;
+}
+.display-4 {
+	font-family: "Corben";
+}
+.index-name {
+	font-family: "Philosopher";
+}
+/*
+	======================================
+	Sections
+	======================================
+*/
+.sortarticle {
+	font-family: "Ubuntu";
+	margin: auto auto;
+	width: 90%;
+}
+.unordered-items {
+  list-style-type: none;
+}
+.unordered-items h3 {
+	font-family: "Gentium Basic";
+	font-size: 26px;
+}
+.unordered-items h2 {
+	font-family: "Saira Condensed";
+	font-size: 27px;
+}
+/*
+	======================================
+	Footer
+	======================================
+*/
+footer {
+	text-align: center;
+	border-top: 1px solid #949599;
+	color: #648880;
+  	font-size: 16px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
