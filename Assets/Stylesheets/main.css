@@ -1,6 +1,6 @@
 /*
 	======================================
-	Individual pages
+	Jumbotron for Individual pages
 	======================================
 */
 .index-jumbo {
@@ -80,16 +80,61 @@
 	margin: auto auto;
 	width: 90%;
 }
+/*
+	======================================
+	Achievements
+	======================================
+*/
+.ordrdlst-achievments a {
+	color: #2F4A57;
+	font-family: "Gentium Basic";
+	font-size: 26px;
+}
+.ordrdlst-achievments a:hover {
+	color: #00243D;
+	text-decoration: none;
+}
+.underline {
+	text-decoration: underline;
+}
+/*
+	======================================
+	Skills
+	======================================
+*/
 .unordered-items {
   list-style-type: none;
+}
+.unordered-items h2 {
+	font-family: "Saira Condensed";
+	font-size: 27px;
 }
 .unordered-items h3 {
 	font-family: "Gentium Basic";
 	font-size: 26px;
 }
-.unordered-items h2 {
-	font-family: "Saira Condensed";
-	font-size: 27px;
+.unordered-items li {
+	padding-bottom: 10px;
+}
+/*
+	======================================
+	Others
+	======================================
+*/
+.col-sm-4 {
+	font-family: "Merriweather";
+	color: #21343D;
+}
+.degree {
+	font-family: "Fjalla One";
+	font-size: 22px;
+	color: #00293D;
+}
+.institute {
+	display: inline-block;
+	font-family: "Titillium Web";
+	font-size: 20px;
+	padding-bottom: 6px;
 }
 /*
 	======================================
