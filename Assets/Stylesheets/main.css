@@ -70,6 +70,9 @@
 .index-name {
 	font-family: "Philosopher";
 }
+.contact {
+	padding: 5px;
+}
 /*
 	======================================
 	Sections
@@ -124,6 +127,10 @@
 .col-sm-4 {
 	font-family: "Merriweather";
 	color: #21343D;
+}
+.status {
+	text-decoration: underline;
+	font-size: 18px;
 }
 .degree {
 	font-family: "Fjalla One";
