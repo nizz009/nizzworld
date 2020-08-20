@@ -12,6 +12,9 @@
     margin: 0;
     color: #fff;
 }
+.btn-lg {
+	margin: 10px;
+}
 .about {
 	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../Images/Banner/bg1.jpg");
 	background-repeat: no-repeat;
@@ -70,9 +73,6 @@
 .index-name {
 	font-family: "Philosopher";
 }
-.contact {
-	padding: 5px;
-}
 /*
 	======================================
 	Sections
@@ -93,7 +93,7 @@
 	font-family: "Gentium Basic";
 	font-size: 26px;
 }
-.ordrdlst-achievments a:hover {
+.ordrdlst a:hover {
 	color: #00243D;
 	text-decoration: none;
 }
