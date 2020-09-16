@@ -115,6 +115,8 @@
 .heading-3 {
 	font-family: "Gentium Basic";
 	font-size: 26px;
+	display: block;
+	margin: 5px;
 }
 .unordered-items li {
 	padding-bottom: 10px;
