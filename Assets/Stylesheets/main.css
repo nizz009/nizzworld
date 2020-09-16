@@ -108,11 +108,11 @@
 .unordered-items {
   list-style-type: none;
 }
-.unordered-items h2 {
+.heading-2 {
 	font-family: "Saira Condensed";
 	font-size: 27px;
 }
-.unordered-items h3 {
+.heading-3 {
 	font-family: "Gentium Basic";
 	font-size: 26px;
 }
