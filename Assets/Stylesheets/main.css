@@ -4,7 +4,7 @@
 	======================================
 */
 .index-jumbo {
-	background-image: url("../Images/Banner/bg.jpg");
+	background-image: url("../Images/Banner/index.jpg");
 	background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
@@ -16,31 +16,37 @@
 	margin: 10px;
 }
 .about {
-	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../Images/Banner/bg1.jpg");
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../Images/Banner/about.jpg");
 	background-repeat: no-repeat;
-    background-size:cover;
-    background-position: 0 38%;
+	background-size:cover;
+	background-position: 0 38%;
+}
+.experiences {
+	background: linear-gradient(rgba(255,255,255,0.50), rgba(255,255,255,0.50)), url("../Images/Banner/experiences.jpg");
+	background-repeat: no-repeat;
+  	background-size:cover;
+  	background-position: 0 30%;
 }
 .achievements {
-	background: linear-gradient(rgba(255,255,255,0.45), rgba(255,255,255,0.45)), url("../Images/Banner/bg2.jpg");
+	background: linear-gradient(rgba(255,255,255,0.45), rgba(255,255,255,0.45)), url("../Images/Banner/achievements.jpg");
 	background-repeat: no-repeat;
     background-size:cover;
     background-position: 0 55%;
 }
 .skills {
-	background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("../Images/Banner/bg3.jpg");
+	background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("../Images/Banner/skills.jpg");
 	background-repeat: no-repeat;
     background-size:cover;
     background-position: 5%;
 }
-.cv {
-	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../Images/Banner/bg6.jpg");
+.others {
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../Images/Banner/others.jpg");
 	background-repeat: no-repeat;
     background-size:cover;
     background-position: 0 25%;
 }
-.feedback {
-	background: linear-gradient(rgba(255,255,255,.35), rgba(255,255,255,.35)), url("../Images/Banner/bg5.jpg");
+.projects {
+	background: linear-gradient(rgba(255,255,255,.35), rgba(255,255,255,.35)), url("../Images/Banner/projects.jpg");
 	background-repeat: no-repeat;
     background-size:cover;
     background-position: 0 25%;
@@ -83,6 +89,24 @@
 	margin: auto auto;
 	width: 90%;
 	min-height: 36vh;
+}
+/*
+	======================================
+	Index
+	======================================
+*/
+.base-image {
+	display: none;
+}
+/*
+	======================================
+	Experiences
+	======================================
+*/
+.organization {
+	font-weight: 800;
+	text-decoration: underline;
+	font-size: 18px;
 }
 /*
 	======================================
