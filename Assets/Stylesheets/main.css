@@ -92,7 +92,7 @@
 .ordrdlst-achievments a {
 	color: #2F4A57;
 	font-family: "Gentium Basic";
-	font-size: 26px;
+	font-size: 21px;
 }
 .ordrdlst a:hover {
 	color: #00243D;
@@ -109,18 +109,15 @@
 .unordered-items {
   list-style-type: none;
 }
-.heading-2 {
-	font-family: "Saira Condensed";
-	font-size: 27px;
-}
-.heading-3 {
-	font-family: "Gentium Basic";
-	font-size: 26px;
-	display: block;
-	margin: 5px;
+.unordered-items h3 {
+	font-size: 25px;
 }
 .unordered-items li {
 	padding-bottom: 10px;
+}
+.skills-list li{
+	display: inline-block;
+	padding: 10px;
 }
 /*
 	======================================
@@ -145,6 +142,16 @@
 	font-family: "Titillium Web";
 	font-size: 20px;
 	padding-bottom: 6px;
+}
+.heading-2 {
+	font-family: "Saira Condensed";
+	font-size: 27px;
+}
+.heading-3 {
+	font-family: "Gentium Basic";
+	font-size: 24px;
+	display: block;
+	margin: 5px;
 }
 /*
 	======================================
